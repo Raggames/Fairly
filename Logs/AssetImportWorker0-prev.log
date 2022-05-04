@@ -1,0 +1,618 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.6f1 (338bb68529b2) revision 3378102'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1466; Version 2009; 64bit' Language: 'fr' Physical Memory: 32706 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Rag/wkspaces/EquityApp/EquityApp
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54875
+Successfully changed project path to: C:/Users/Rag/wkspaces/EquityApp/EquityApp
+C:/Users/Rag/wkspaces/EquityApp/EquityApp
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 35.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.6f1 (338bb68529b2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Rag/wkspaces/EquityApp/EquityApp/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f02)
+    Vendor:   
+    VRAM:     8031 MB
+    Driver:   27.21.14.5751
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001604 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 36.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.290 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003169 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 34.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.785 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2464 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.4 MB.
+System memory in use after: 112.5 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 2869.
+Total: 2.929400 ms (FindLiveObjects: 0.245200 ms CreateObjectMapping: 0.136800 ms MarkObjects: 1.444600 ms  DeleteObjects: 1.102000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/FairlyCount/Prefabs/UIExpense.prefab
+  artifactKey: Guid(8cf3a40d88024154a9fbf3619c366d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FairlyCount/Prefabs/UIExpense.prefab using Guid(8cf3a40d88024154a9fbf3619c366d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Recursive Serialization is not supported. You can't dereference a PPtr while loading. (Constructors of C# classes may not load objects either. See stacktrace.)
+
+Serialization depth limit 10 exceeded at 'EquiCount::TransactionData.payorsIDs'. There may be an object composition cycle in one or more of your serialized classes.
+
+Serialization hierarchy:
+11: EquiCount::TransactionData.payorsIDs
+10: EquiCount::TransactionData.paybacksSequence
+9: EquiCount::TransactionData.paybacksSequence
+8: EquiCount::TransactionData.paybacksSequence
+7: EquiCount::TransactionData.paybacksSequence
+6: EquiCount::TransactionData.paybacksSequence
+5: EquiCount::TransactionData.paybacksSequence
+4: EquiCount::TransactionData.paybacksSequence
+3: EquiCount::TransactionData.paybacksSequence
+2: EquiCount::TransactionData.paybacksSequence
+1: EquiCount::TransactionData.paybacksSequence
+0: FairlyCount.View::UIExpense.data
+
+Recursive Serialization is not supported. You can't dereference a PPtr while loading. (Constructors of C# classes may not load objects either. See stacktrace.)
+
+Serialization depth limit 10 exceeded at 'EquiCount::TransactionData.payorsIDs'. There may be an object composition cycle in one or more of your serialized classes.
+
+Serialization hierarchy:
+11: EquiCount::TransactionData.payorsIDs
+10: EquiCount::TransactionData.paybacksSequence
+9: EquiCount::TransactionData.paybacksSequence
+8: EquiCount::TransactionData.paybacksSequence
+7: EquiCount::TransactionData.paybacksSequence
+6: EquiCount::TransactionData.paybacksSequence
+5: EquiCount::TransactionData.paybacksSequence
+4: EquiCount::TransactionData.paybacksSequence
+3: EquiCount::TransactionData.paybacksSequence
+2: EquiCount::TransactionData.paybacksSequence
+1: EquiCount::TransactionData.paybacksSequence
+0: EquiCount::TransactionData.paybacksSequence
+
+ -> (artifact id: '1c479f1827d5412533c853d8a766e904') in 0.106153 seconds
+  Import took 0.109961 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002120 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.730 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2381 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.6 MB.
+System memory in use after: 107.8 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2872.
+Total: 2.855800 ms (FindLiveObjects: 0.199500 ms CreateObjectMapping: 0.090500 ms MarkObjects: 1.430900 ms  DeleteObjects: 1.134000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001880 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.730 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2381 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.6 MB.
+System memory in use after: 107.9 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2875.
+Total: 3.120200 ms (FindLiveObjects: 0.224600 ms CreateObjectMapping: 0.104500 ms MarkObjects: 1.552300 ms  DeleteObjects: 1.237900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001950 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.761 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2381 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.7 MB.
+System memory in use after: 107.9 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2878.
+Total: 3.155500 ms (FindLiveObjects: 0.199000 ms CreateObjectMapping: 0.082900 ms MarkObjects: 1.576100 ms  DeleteObjects: 1.296700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001927 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.774 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2381 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.7 MB.
+System memory in use after: 107.9 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2881.
+Total: 2.879200 ms (FindLiveObjects: 0.207300 ms CreateObjectMapping: 0.091100 ms MarkObjects: 1.347900 ms  DeleteObjects: 1.232000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 230.572031 seconds.
+  path: Assets/FairlyCount/Prefabs/UIExpense.prefab
+  artifactKey: Guid(8cf3a40d88024154a9fbf3619c366d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FairlyCount/Prefabs/UIExpense.prefab using Guid(8cf3a40d88024154a9fbf3619c366d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Recursive Serialization is not supported. You can't dereference a PPtr while loading. (Constructors of C# classes may not load objects either. See stacktrace.)
+
+Serialization depth limit 10 exceeded at 'EquiCount::TransactionData.payorsIDs'. There may be an object composition cycle in one or more of your serialized classes.
+
+Serialization hierarchy:
+11: EquiCount::TransactionData.payorsIDs
+10: EquiCount::TransactionData.paybacksSequence
+9: EquiCount::TransactionData.paybacksSequence
+8: EquiCount::TransactionData.paybacksSequence
+7: EquiCount::TransactionData.paybacksSequence
+6: EquiCount::TransactionData.paybacksSequence
+5: EquiCount::TransactionData.paybacksSequence
+4: EquiCount::TransactionData.paybacksSequence
+3: EquiCount::TransactionData.paybacksSequence
+2: EquiCount::TransactionData.paybacksSequence
+1: EquiCount::TransactionData.paybacksSequence
+0: FairlyCount.View::UIExpense.data
+
+Recursive Serialization is not supported. You can't dereference a PPtr while loading. (Constructors of C# classes may not load objects either. See stacktrace.)
+
+Serialization depth limit 10 exceeded at 'EquiCount::TransactionData.payorsIDs'. There may be an object composition cycle in one or more of your serialized classes.
+
+Serialization hierarchy:
+11: EquiCount::TransactionData.payorsIDs
+10: EquiCount::TransactionData.paybacksSequence
+9: EquiCount::TransactionData.paybacksSequence
+8: EquiCount::TransactionData.paybacksSequence
+7: EquiCount::TransactionData.paybacksSequence
+6: EquiCount::TransactionData.paybacksSequence
+5: EquiCount::TransactionData.paybacksSequence
+4: EquiCount::TransactionData.paybacksSequence
+3: EquiCount::TransactionData.paybacksSequence
+2: EquiCount::TransactionData.paybacksSequence
+1: EquiCount::TransactionData.paybacksSequence
+0: EquiCount::TransactionData.paybacksSequence
+
+ -> (artifact id: 'ecdd2a8a89aa257aa95c4a57fcc69bdd') in 0.069246 seconds
+  Import took 0.072429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.989128 seconds.
+  path: Assets/FairlyCount/Prefabs/UIExpense.prefab
+  artifactKey: Guid(8cf3a40d88024154a9fbf3619c366d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FairlyCount/Prefabs/UIExpense.prefab using Guid(8cf3a40d88024154a9fbf3619c366d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f31a481f27eb81c54a3ea4a5bf68e87') in 0.023578 seconds
+  Import took 0.028135 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001894 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.741 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2381 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.6 MB.
+System memory in use after: 107.8 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2884.
+Total: 3.038300 ms (FindLiveObjects: 0.221000 ms CreateObjectMapping: 0.096000 ms MarkObjects: 1.440800 ms  DeleteObjects: 1.279500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001859 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.739 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2381 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.7 MB.
+System memory in use after: 107.9 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2887.
+Total: 3.028000 ms (FindLiveObjects: 0.205000 ms CreateObjectMapping: 0.090700 ms MarkObjects: 1.459700 ms  DeleteObjects: 1.271500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 147.497770 seconds.
+  path: Assets/FairlyCount/Prefabs/UIExpense.prefab
+  artifactKey: Guid(8cf3a40d88024154a9fbf3619c366d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FairlyCount/Prefabs/UIExpense.prefab using Guid(8cf3a40d88024154a9fbf3619c366d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Recursive Serialization is not supported. You can't dereference a PPtr while loading. (Constructors of C# classes may not load objects either. See stacktrace.)
+
+Serialization depth limit 10 exceeded at 'EquiCount::TransactionData.payorsIDs'. There may be an object composition cycle in one or more of your serialized classes.
+
+Serialization hierarchy:
+11: EquiCount::TransactionData.payorsIDs
+10: EquiCount::TransactionData.paybacksSequence
+9: EquiCount::TransactionData.paybacksSequence
+8: EquiCount::TransactionData.paybacksSequence
+7: EquiCount::TransactionData.paybacksSequence
+6: EquiCount::TransactionData.paybacksSequence
+5: EquiCount::TransactionData.paybacksSequence
+4: EquiCount::TransactionData.paybacksSequence
+3: EquiCount::TransactionData.paybacksSequence
+2: EquiCount::TransactionData.paybacksSequence
+1: EquiCount::TransactionData.paybacksSequence
+0: FairlyCount.View::UIExpense.data
+
+Recursive Serialization is not supported. You can't dereference a PPtr while loading. (Constructors of C# classes may not load objects either. See stacktrace.)
+
+Serialization depth limit 10 exceeded at 'EquiCount::TransactionData.payorsIDs'. There may be an object composition cycle in one or more of your serialized classes.
+
+Serialization hierarchy:
+11: EquiCount::TransactionData.payorsIDs
+10: EquiCount::TransactionData.paybacksSequence
+9: EquiCount::TransactionData.paybacksSequence
+8: EquiCount::TransactionData.paybacksSequence
+7: EquiCount::TransactionData.paybacksSequence
+6: EquiCount::TransactionData.paybacksSequence
+5: EquiCount::TransactionData.paybacksSequence
+4: EquiCount::TransactionData.paybacksSequence
+3: EquiCount::TransactionData.paybacksSequence
+2: EquiCount::TransactionData.paybacksSequence
+1: EquiCount::TransactionData.paybacksSequence
+0: EquiCount::TransactionData.paybacksSequence
+
+ -> (artifact id: 'ee2837f718f1b33350c5179704cc3e17') in 0.070510 seconds
+  Import took 0.074498 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001842 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.758 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2381 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.7 MB.
+System memory in use after: 107.9 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2890.
+Total: 3.020900 ms (FindLiveObjects: 0.224500 ms CreateObjectMapping: 0.093600 ms MarkObjects: 1.376300 ms  DeleteObjects: 1.325500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 38.226288 seconds.
+  path: Assets/FairlyCount/Prefabs/UIExpense.prefab
+  artifactKey: Guid(8cf3a40d88024154a9fbf3619c366d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FairlyCount/Prefabs/UIExpense.prefab using Guid(8cf3a40d88024154a9fbf3619c366d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Recursive Serialization is not supported. You can't dereference a PPtr while loading. (Constructors of C# classes may not load objects either. See stacktrace.)
+
+Serialization depth limit 10 exceeded at 'EquiCount::TransactionData.payorsIDs'. There may be an object composition cycle in one or more of your serialized classes.
+
+Serialization hierarchy:
+11: EquiCount::TransactionData.payorsIDs
+10: EquiCount::TransactionData.paybacksSequence
+9: EquiCount::TransactionData.paybacksSequence
+8: EquiCount::TransactionData.paybacksSequence
+7: EquiCount::TransactionData.paybacksSequence
+6: EquiCount::TransactionData.paybacksSequence
+5: EquiCount::TransactionData.paybacksSequence
+4: EquiCount::TransactionData.paybacksSequence
+3: EquiCount::TransactionData.paybacksSequence
+2: EquiCount::TransactionData.paybacksSequence
+1: EquiCount::TransactionData.paybacksSequence
+0: FairlyCount.View::UIExpense.data
+
+Recursive Serialization is not supported. You can't dereference a PPtr while loading. (Constructors of C# classes may not load objects either. See stacktrace.)
+
+Serialization depth limit 10 exceeded at 'EquiCount::TransactionData.payorsIDs'. There may be an object composition cycle in one or more of your serialized classes.
+
+Serialization hierarchy:
+11: EquiCount::TransactionData.payorsIDs
+10: EquiCount::TransactionData.paybacksSequence
+9: EquiCount::TransactionData.paybacksSequence
+8: EquiCount::TransactionData.paybacksSequence
+7: EquiCount::TransactionData.paybacksSequence
+6: EquiCount::TransactionData.paybacksSequence
+5: EquiCount::TransactionData.paybacksSequence
+4: EquiCount::TransactionData.paybacksSequence
+3: EquiCount::TransactionData.paybacksSequence
+2: EquiCount::TransactionData.paybacksSequence
+1: EquiCount::TransactionData.paybacksSequence
+0: EquiCount::TransactionData.paybacksSequence
+
+ -> (artifact id: 'b316b5d60f0d99f216568be835c02987') in 0.071180 seconds
+  Import took 0.075233 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001836 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.762 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2381 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.7 MB.
+System memory in use after: 108.0 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2893.
+Total: 3.050100 ms (FindLiveObjects: 0.218100 ms CreateObjectMapping: 0.091200 ms MarkObjects: 1.408800 ms  DeleteObjects: 1.331100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 78.510148 seconds.
+  path: Assets/FairlyCount/Prefabs/UIExpense.prefab
+  artifactKey: Guid(8cf3a40d88024154a9fbf3619c366d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FairlyCount/Prefabs/UIExpense.prefab using Guid(8cf3a40d88024154a9fbf3619c366d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Recursive Serialization is not supported. You can't dereference a PPtr while loading. (Constructors of C# classes may not load objects either. See stacktrace.)
+
+Serialization depth limit 10 exceeded at 'EquiCount::TransactionData.payorsIDs'. There may be an object composition cycle in one or more of your serialized classes.
+
+Serialization hierarchy:
+11: EquiCount::TransactionData.payorsIDs
+10: EquiCount::TransactionData.paybacksSequence
+9: EquiCount::TransactionData.paybacksSequence
+8: EquiCount::TransactionData.paybacksSequence
+7: EquiCount::TransactionData.paybacksSequence
+6: EquiCount::TransactionData.paybacksSequence
+5: EquiCount::TransactionData.paybacksSequence
+4: EquiCount::TransactionData.paybacksSequence
+3: EquiCount::TransactionData.paybacksSequence
+2: EquiCount::TransactionData.paybacksSequence
+1: EquiCount::TransactionData.paybacksSequence
+0: FairlyCount.View::UIExpense.data
+
+Recursive Serialization is not supported. You can't dereference a PPtr while loading. (Constructors of C# classes may not load objects either. See stacktrace.)
+
+Serialization depth limit 10 exceeded at 'EquiCount::TransactionData.payorsIDs'. There may be an object composition cycle in one or more of your serialized classes.
+
+Serialization hierarchy:
+11: EquiCount::TransactionData.payorsIDs
+10: EquiCount::TransactionData.paybacksSequence
+9: EquiCount::TransactionData.paybacksSequence
+8: EquiCount::TransactionData.paybacksSequence
+7: EquiCount::TransactionData.paybacksSequence
+6: EquiCount::TransactionData.paybacksSequence
+5: EquiCount::TransactionData.paybacksSequence
+4: EquiCount::TransactionData.paybacksSequence
+3: EquiCount::TransactionData.paybacksSequence
+2: EquiCount::TransactionData.paybacksSequence
+1: EquiCount::TransactionData.paybacksSequence
+0: EquiCount::TransactionData.paybacksSequence
+
+ -> (artifact id: '5adbb01a1ca6e9c29c1335d82ac9b165') in 0.072613 seconds
+  Import took 0.075974 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002043 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.750 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2381 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.8 MB.
+System memory in use after: 108.0 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2896.
+Total: 2.992700 ms (FindLiveObjects: 0.220400 ms CreateObjectMapping: 0.089100 ms MarkObjects: 1.315400 ms  DeleteObjects: 1.367100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001969 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.774 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2381 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.7 MB.
+System memory in use after: 107.9 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2899.
+Total: 3.030200 ms (FindLiveObjects: 0.196200 ms CreateObjectMapping: 0.085100 ms MarkObjects: 1.471200 ms  DeleteObjects: 1.276900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 61.748595 seconds.
+  path: Assets/FairlyCount/Prefabs/UIExpense.prefab
+  artifactKey: Guid(8cf3a40d88024154a9fbf3619c366d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FairlyCount/Prefabs/UIExpense.prefab using Guid(8cf3a40d88024154a9fbf3619c366d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Recursive Serialization is not supported. You can't dereference a PPtr while loading. (Constructors of C# classes may not load objects either. See stacktrace.)
+
+Serialization depth limit 10 exceeded at 'EquiCount::TransactionData.payorsIDs'. There may be an object composition cycle in one or more of your serialized classes.
+
+Serialization hierarchy:
+11: EquiCount::TransactionData.payorsIDs
+10: EquiCount::TransactionData.paybacksSequence
+9: EquiCount::TransactionData.paybacksSequence
+8: EquiCount::TransactionData.paybacksSequence
+7: EquiCount::TransactionData.paybacksSequence
+6: EquiCount::TransactionData.paybacksSequence
+5: EquiCount::TransactionData.paybacksSequence
+4: EquiCount::TransactionData.paybacksSequence
+3: EquiCount::TransactionData.paybacksSequence
+2: EquiCount::TransactionData.paybacksSequence
+1: EquiCount::TransactionData.paybacksSequence
+0: FairlyCount.View::UIExpense.data
+
+Recursive Serialization is not supported. You can't dereference a PPtr while loading. (Constructors of C# classes may not load objects either. See stacktrace.)
+
+Serialization depth limit 10 exceeded at 'EquiCount::TransactionData.payorsIDs'. There may be an object composition cycle in one or more of your serialized classes.
+
+Serialization hierarchy:
+11: EquiCount::TransactionData.payorsIDs
+10: EquiCount::TransactionData.paybacksSequence
+9: EquiCount::TransactionData.paybacksSequence
+8: EquiCount::TransactionData.paybacksSequence
+7: EquiCount::TransactionData.paybacksSequence
+6: EquiCount::TransactionData.paybacksSequence
+5: EquiCount::TransactionData.paybacksSequence
+4: EquiCount::TransactionData.paybacksSequence
+3: EquiCount::TransactionData.paybacksSequence
+2: EquiCount::TransactionData.paybacksSequence
+1: EquiCount::TransactionData.paybacksSequence
+0: EquiCount::TransactionData.paybacksSequence
+
+ -> (artifact id: 'd84a8dcba73713f32ddfec28f503bb60') in 0.068936 seconds
+  Import took 0.072835 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002145 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.767 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2381 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.8 MB.
+System memory in use after: 108.0 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2902.
+Total: 3.201100 ms (FindLiveObjects: 0.296300 ms CreateObjectMapping: 0.118100 ms MarkObjects: 1.448500 ms  DeleteObjects: 1.336900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
